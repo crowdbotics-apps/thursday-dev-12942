@@ -19,11 +19,7 @@ export class _Blank extends React.Component {
     return { headerLeft: <SlideMenuIcon navigationProps={navigation} /> }
   }
   state = {}
-  render = () => (
-    <View style={styles.View_1}>
-      <Text style={styles.Text_3}>Sample text content</Text>
-    </View>
-  )
+  render = () => <View style={styles.View_1} />
 }
 
 Blank = withStyles(_Blank, theme => ({
